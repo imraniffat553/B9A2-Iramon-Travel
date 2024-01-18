@@ -1,4 +1,75 @@
-*{
-    margin:0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header{
+    padding: 5px;
+}
+
+/* nav  related style */
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  
+  }
+  nav > div ul{
+    display: flex;
+    padding: 0px 30px;
+    display: flex;
+
+  }
+ ul li{
+
+text-align: center;
+font-size: 1.3rem;
+font-weight: 700;
+line-height: normal;
+list-style: none;
+margin: 30px;
+    
+}
+ li a {
+    color: #131318;
+    text-decoration: none;
+ }
+
+ nav div label{
+    align-items: center;
+    text-align: center;
+ }
+label.company-name {
+  color: #131318;
+  justify-content:start;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 800;
+  margin:5px;
+}
+span.travel {
+  color: #ff5400;
+  font-size: 3rem;
+  font-weight: 800;
+}
+img.logo{
+    height: 45px;
+    padding:0 5px;
+   
+}
+span.list-name{
+    color: #ff5400;
+    font-size: 1.3rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner{
+    position: relative;
+    left: 100px;
 }
