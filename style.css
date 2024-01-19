@@ -429,3 +429,41 @@ body {
     line-height: normal;
   }
   
+/**response section**/
+@media only screen and (max-width: 600px) {
+
+  /**navbar*/
+  .navbar-nav{
+    display: flex;
+
+  }
+  .navbar{
+    flex-direction: column;
+    width: 70%;
+    height: 100vh;
+    background-color: #FF5400;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left:-100%;
+    z-index: 15;
+    transition: all 0.9s ease-in-out;
+  }
+  .navbar li{
+    margin-top: 1px; 
+  }
+ .navbar li a{
+    color: #fffaff;
+  }
+ .checker{
+  display: block;
+ }
+.checker:checked~.navbar{
+  left: 0; 
+}
+.destination-contentOne{
+  flex-wrap: wrap;
+
+}
+}
