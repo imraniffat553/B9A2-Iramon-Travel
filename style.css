@@ -239,7 +239,6 @@ body {
  
 }
 
-
 .primary-btn-tour{
   color: #FFF;
   text-align: center;
@@ -254,4 +253,179 @@ body {
   
 }
 
+/**Choose Your Destination**/
 
+.Destination{
+  padding-bottom: 100px;
+  margin: auto;
+}
+.destination-title{
+  color: #131318;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 24px;
+}
+.destination-describetion{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+ padding:0px 270px;
+ padding-top: 24px;
+ padding-bottom: 48px;
+
+}
+.destination-contentOne{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:24px;
+  
+}
+.pic1{
+  width: 573px;
+  height: 300px;
+
+}
+.pic2{
+  width: 573px;
+  height: 300px;
+
+}
+
+.pic3{
+  width: 374px;
+  height: 286px;
+
+
+}
+.pic4{
+  width: 474px;
+  height: 286px;
+
+
+
+}
+.pic5{
+  width: 274px;
+  height: 286px;
+  
+
+
+}
+.pic6{
+
+  width: 473px;
+  height: 300px;
+
+
+}
+.pic7{
+  width: 673px;
+  height: 300px;
+}
+.posetion{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  z-index: 5;
+  position: relative;
+  bottom: 175px;
+  
+}
+
+
+  /**footer**/
+  .footer-section{
+    padding:100px 0px;
+    background: rgba(19, 19, 24, 0.05);
+    
+  }
+  .title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .footer-logo{
+    width: 40px;
+    height: 46.673px;
+  
+  
+  }
+  .title a{
+    font-size: 32px;
+    color: var(--Dark-01, #131318);
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    
+    
+  }
+  .footer-title span{
+    color: #FF5400;
+  font-family: Mulish;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  }
+  .footer-describe{
+    width: 769px;
+    color: #5A5A5D;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+  padding-top: 15px;
+  margin: 0px auto;
+  }
+  .footer-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 32px
+    
+  }
+  .footer-list li{
+    font-size: 24px;
+   
+   padding: 0px 16px;
+   list-style: none;
+   
+  }
+  .footer-list i{
+    color: #131318;
+  }
+  .footer-copyrught{
+    padding-top: 100px;
+  }
+  .copypaste{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #131318;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+  
