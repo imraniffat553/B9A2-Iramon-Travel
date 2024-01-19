@@ -6,70 +6,252 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-header{
-    padding: 5px;
-}
+  .container{
+    max-width: 1170px;
+    width: 98%;
+    margin: auto;
+  }
 
-/* nav  related style */
-nav {
+  .check{
+    display: none;
+  }
 
+  a{
+    text-decoration: none;
+  }
+  .primary-btn{
+    padding: 16px;
+    font-family: Mulish;
+    font-weight: 700;
+    color: #FFF;
+    text-align: center;
+    line-height: normal;
+    border-radius: 8px;
+    background: #FF5400;
+    
+  }
+  .navbar-brand{
+    padding-left: 5px;
+  
+  }
+
+  .navbar-nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-
-  
+    padding: 55px 0px;
   }
-  nav > div ul{
-    display: flex;
-    padding: 0px 30px;
-    display: flex;
 
+  .navbar-brand span{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
   }
- ul li{
 
-text-align: center;
-font-size: 1.3rem;
-font-weight: 700;
-line-height: normal;
-list-style: none;
-margin: 30px;
+  .navbar-brand img{
+    width: 48px;
+    height: 56px;
     
-}
- li a {
-    color: #131318;
-    text-decoration: none;
- }
+  }
 
- nav div label{
+  .navbar-brand a{
+    display: flex;
     align-items: center;
-    text-align: center;
- }
-label.company-name {
-  color: #131318;
-  justify-content:start;
-  text-align: center;
-  font-size: 3rem;
-  font-weight: 800;
-  margin:5px;
-}
-span.travel {
-  color: #ff5400;
-  font-size: 3rem;
-  font-weight: 800;
-}
-img.logo{
-    height: 45px;
-    padding:0 5px;
-   
-}
-span.list-name{
-    color: #ff5400;
-    font-size: 1.3rem;
+    font-style: normal;
+    gap: 11px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+    line-height: normal;
+    text-decoration: none;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 44px;
+  }
+  .navbar  li{
+    list-style: none;
+  }
+  .navbar  li a{
+    color: #131318;
     font-weight: 700;
     line-height: normal;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: none;
+  }
+
+  .navbar  li a:hover 
+{
+  color: #FF5400;
 }
 
-.banner{
-    position: relative;
-    left: 100px;
+.banner-content{
+  width: 100%;
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url("Images/Group\ 13\ \(1\)\ \(1\).png");
+  height: 500px;
+  border-radius: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+.banner-content2{
+ 
+  margin:0px  auto ;
+  display: block;
+  justify-content: center;
+  padding: 100px 0px;
+  align-items:center;
+}
+
+.title1{
+  color: #FFF;
+  font-size: 64px;
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+}
+
+.banner-describe{
+  padding: 24px 247px;
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+ 
+
+}
+
+.banner-option{
+  border-radius: 8px;
+  background: rgba(231, 225, 225, 0.3);
+  margin: 0px 160px;
+  padding:16px;
+}
+
+.option{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.option input{
+
+  background: #FFF;
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  padding-left: 24px;
+
+}
+
+.option select{
+  border-radius: 8px;
+  background: #FFF;
+  width: 174px;
+  height: 52px;
+  padding:0px 24px;
+  
+
+}
+#check{
+  display: none;
+}
+.checker{
+  display: none;
+}
+
+/**main-section**/
+
+.container-background{
+  padding: 100px 0px;
+
+}
+
+.Popular-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 48px;
+ 
+}
+
+.lelf-content {
+  padding-right: 48px;
+  padding-bottom: 32px;
+
+}
+.Popular-title{
+  color: #131318;
+  text-align: left;
+  font-family: Mulish;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 24px;
+}
+.Popular-describe{
+  color: rgba(19, 19, 24, 0.70);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 24px;
+}
+
+.Popular-list{
+  display: block;
+  align-items: center;
+  justify-content: flex-start;
+  
+}
+.Popular-list li{
+  color: rgba(19, 19, 24, 0.70);
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 24px;
+  
+}
+
+.Popula-pic .Popula-photo{
+  width: 540px;
+  height: 550px;
+ 
+}
+
+
+.primary-btn-tour{
+  color: #FFF;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  border-radius: 8px;
+  background: #FF5400;
+  padding: 14px 35px;
+  
+}
+
+
